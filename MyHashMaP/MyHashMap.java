@@ -25,16 +25,6 @@ public class MyHashMap<K, V> {
         public void setValue(V value) {
             this.value = value;
         }
-//        @Override
-//        public String toString() {
-//            Node<K, V> temp = this;
-//            StringBuilder sb = new StringBuilder();
-//            while (temp != null) {
-//                sb.append(temp.key + " -> " + temp.value + ",");
-//                temp = temp.next;
-//            }
-//            return sb.toString();
-//        }
     }
     private final int SIZE = 16;
 
